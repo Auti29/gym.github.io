@@ -1,0 +1,70 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/box-g42726b0cf_1920.jpg);
+}
+.left{
+    display: inline-block; 
+    position: absolute;
+    left: -19px;
+    top: -21px;
+}
+.left img{
+    width: 226px;
+}
+.mid{
+    border: 2px solid white;
+    border-radius: 20px;
+    display: block;
+    width: 33%;
+    margin: 15px auto; 
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+}
+.btn{
+    font-size: 12px;
+    padding: 7px 27px;
+    margin: 4px 5px;
+    border-radius: 10px;
+}
+.btn:hover{
+    font-family: fantasy;    
+    font-size: 13px;
+    background-color: grey;
+    cursor: pointer;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 24px;
+}
+.navbar li a:hover{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    font-family: fantasy;
+}
+.container{
+    margin: 2px 5px;
+    margin: 190px 50px;
+    width: 34%;
+    height: 320px;
+}
+.container h3{
+    text-align: center;
+}
+.form{
+    margin: 25px;
+    text-align: center;   
+}
+.form input{
+    width: 270px;
+}
